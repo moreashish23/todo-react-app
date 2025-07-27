@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* index.css or App.css */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f0e6d2;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #c4a484;
+  border-radius: 8px;
+}
